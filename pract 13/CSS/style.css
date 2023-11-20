@@ -1,0 +1,46 @@
+:root{
+    --primary-color: rgb(246, 132, 170);
+}
+
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 30px;
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20220215/pngtree-double-11-gradient-purple-banner-download-image_924640.jpg');
+    background-size: cover;
+
+}
+
+
+.fa-button{
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.dark-mode .fa-button{
+    background-color: rgb(65, 14, 65);
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+
+.light-mode .fa-button{
+    background-color: var(--primary-color);
+    color:#fff;
+    border-color: var(--primary-color);
+
+}
+
+
+/*estilo degradado para realtar el boton de reiniciar*/
+
+.reset-mode .fa-button{
+    background: linear-gradient(to right, var(--primary-color), #fff);
+    border-color: var(--primary-color);
+}
+
